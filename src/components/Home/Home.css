@@ -1,0 +1,90 @@
+/*shoko takahashi*/
+html {
+    --section-background-color: linear-gradient(to bottom left,
+            rgb(5, 7, 19),
+            rgba(5, 7, 19, 0.703));
+
+    --image-gradient: linear-gradient(
+            rgba(12, 21, 58),
+            rgba(20, 28, 65, 0.268));
+}
+
+.img-crop {
+    height: 400px;
+    overflow: hidden;
+}
+
+.cropped-img {
+    height: 450px;
+    width: auto;
+    margin-right: 10%;
+}
+
+.home-header {
+    z-index: 1;
+    padding-top: 80px !important;
+}
+
+.home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(../../assets/moon.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+}
+
+.home-content {
+    padding: 9rem 0 2rem !important;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.heading {
+    font-size: 2.4em !important;
+    padding-left: 50px !important;
+}
+
+.heading-name {
+    font-size: 2.5em !important;
+    padding-left: 50px !important;
+}
+
+.main-name {
+    color: #62c9e2;
+}
+
+.home-type {
+    padding: 50px;
+    text-align: left;
+    font-size: 2.4em;
+    font-weight: 500;
+    color: #62c9e2;
+}
+
+.home-about-description {
+    color: white !important;
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+}
+
+.home-about-body {
+    padding-top: 50px;
+    font-size: 1.2em !important;
+    text-align: left;
+}
+
+.myAvtar {
+    justify-content: center !important;
+    padding-top: 9em !important;
+  }
+  
+  @media (max-width: 767px) {
+    .myAvtar {
+      padding-top: 2em !important;
+      padding-bottom: 2em !important;
+    }
+  }
