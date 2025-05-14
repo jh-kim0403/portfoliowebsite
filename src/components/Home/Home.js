@@ -43,15 +43,16 @@ function Home() {
                 <Container>
                     <Row>
 
-                        <Col md={4} className="myAvtar">
+                        <Col lg={4} className="myAvtar">
                             <motion.img
                                 whileHover={{ scale: 1.3 }}
                                 whileTap={{ scale: 0.8 }}
                                 src={avatar} alt="Avatar"
                                 style={{width: 300,
-                                    height: 400}}/>
+                                    height: 400,
+                                    justifyContent: "center" }}/>
                         </Col>
-                        <Col md={8} className="home-about-description">
+                        <Col  lg={8} className="home-about-description">
                             <h1 style={{ fontSize: "2.6em" }}>
                                 LET ME <span> INTRODUCE </span> MYSELF
                             </h1>

@@ -8,11 +8,13 @@ import { AiOutlineHome } from "react-icons/ai";
 import { IoPersonOutline } from "react-icons/io5";
 import { IoNewspaperOutline } from "react-icons/io5";
 import { MdOutlineEngineering } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function NavBar() {
-
+    const [activeKey, setActiveKey] = useState("home");
     const [expand, updateExpanded] = useState(false);
-    const [navColour, updateNavbar] = useState(false);
+    const [navState, updateNavbar] = useState(false);
+
 
     function scrollHandler() {
         if (window.scrollY >= 20) {
@@ -26,26 +28,29 @@ function NavBar() {
 
     return (
 
-        <Navbar bg="dark" data-bs-theme="dark" expand="md" className="bg-body-tertiary" >
+        <Navbar expand="lg" fixed="top" className={navState ? "sticky" : "blured"}>
             <Container>
-                <Navbar.Brand href="#home">JK</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav"
-                    onClick={() => {
-                        updateExpanded(expand ? false : "expanded");
-                    }} />
+                <Navbar.Brand href="/" className="brand">JK</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ms-auto pe-5">
+                    <Nav className="ms-auto pe-auto"
+                        activeKey={activeKey}
+                        onSelect={key => setActiveKey(key)}>
                         <Nav.Item>
-                            <Nav.Link href="#home"><AiOutlineHome />  Home</Nav.Link>
+                            <Nav.Link as={Link} to="/" eventKey="/"><AiOutlineHome />  <span>Home</span></Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#about"><IoPersonOutline />  About</Nav.Link>
+                            <Nav.Link as={Link} to="/about" eventKey="/about"><IoPersonOutline />  <span>About</span></Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#experience"><IoNewspaperOutline />  Experience</Nav.Link>
+                            <Nav.Link as={Link} to="/experience" eventKey="/experience"><IoNewspaperOutline />  <span>Experience</span></Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="#projects"><MdOutlineEngineering />  Projects</Nav.Link>
+                            <Nav.Link as={Link} to="/projects" eventKey="/projects"><MdOutlineEngineering />  <span>Projects</span></Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
