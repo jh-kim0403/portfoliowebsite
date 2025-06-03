@@ -1,0 +1,35 @@
+.about-section {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-content {
+    padding: 9rem 0 2rem !important;
+    color: white;
+}
+
+.about-paragraph {
+    padding-left: 50px;
+}
+
+.transparent-list {
+    margin-top: 30px;
+}
+
+.transparent-list .list-group-item {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.cropped-img {
+    height: 450px;
+    width: auto;
+    margin-right: 10%;
+}
+
+.img-crop {
+    height: 400px;
+    overflow: hidden;
+}

@@ -47,7 +47,7 @@ function NavBar() {
                             <Nav.Link as={Link} to="/about" eventKey="/about"><IoPersonOutline />  <span>About</span></Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/experience" eventKey="/experience"><IoNewspaperOutline />  <span>Experience</span></Nav.Link>
+                            <Nav.Link as={Link} to="/resume" eventKey="/experience"><IoNewspaperOutline />  <span>Experience</span></Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link as={Link} to="/projects" eventKey="/projects"><MdOutlineEngineering />  <span>Projects</span></Nav.Link>

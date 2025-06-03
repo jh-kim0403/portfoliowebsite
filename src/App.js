@@ -12,6 +12,8 @@ import NavBar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume/Resume";
+import Projects from "./components/Projects/Projects";
 import "./App.css";
 
 function App() {
@@ -33,7 +35,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </div>
         <Footer />

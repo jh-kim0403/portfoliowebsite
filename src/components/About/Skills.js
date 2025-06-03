@@ -69,7 +69,7 @@ export default function Skills() {
                 <Row className="g-3 skills-list">
                     {skills.map(skill => (
                         /* 6 cols on xs (2 per row), 3 cols on md+ (4 per row) */
-                        <Col key={skill.id} xs={6} md={2}>
+                        <Col key={skill.id} xs={5} md={2}>
                             <motion.div
                                 layout
                                 className="skill-item"

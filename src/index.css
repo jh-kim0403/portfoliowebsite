@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
 }
+
 .app-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* 3. Let your main content grow to push footer down */
 .page-content {
   flex: 1;
 }

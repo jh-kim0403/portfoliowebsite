@@ -1,0 +1,5 @@
+.resume-section {
+    position: relative ;
+    background-image: var(--section-background-color); 
+    color: white; 
+}

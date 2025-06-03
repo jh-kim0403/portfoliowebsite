@@ -57,21 +57,20 @@ function Home() {
                                 LET ME <span> INTRODUCE </span> MYSELF
                             </h1>
                             <p className="home-about-body">
-                                I fell in love with programming and I have at least learnt
-                                something, I think… 🤷‍♂️
+                                I took interest in software when I took APCS in high school. 
                                 <br />
-                                <br />I am fluent in classics like
+                                <br />I am most comfortable with
                                 <i>
-                                    <b> C++, Javascript and Go. </b>
+                                    <b> Java and Python. </b>
                                 </i>
                                 <br />
                                 <br />
-                                My field of Interest's are building new &nbsp;
+                                My field of interest's are building new &nbsp;
                                 <i>
-                                    <b>Web Technologies and Products </b> and
+                                    <b>Web applications </b> and
                                     also in areas related to{" "}
                                     <b >
-                                        Blockchain.
+                                        machine learning.
                                     </b>
                                 </i>
                                 <br />
