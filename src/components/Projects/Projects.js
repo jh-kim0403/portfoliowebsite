@@ -5,8 +5,9 @@ import React from "react";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css";
-import pic1 from "../../assets/temp_profile.webp";
-import pic2 from "../../assets/temp_profile.webp";
+import lcd from "../../assets/lcd_calculator.png";
+import portfolio from "../../assets/portfolio.png";
+import led_dimmer from "../../assets/LED_Dimmer.jpg";
 import pic3 from "../../assets/temp_profile.webp";
 import "../Projects/Projects.css";
 import Particle from "../Particle";
@@ -38,23 +39,23 @@ function Projects() {
 
             >
                 <SwiperSlide>
-                    <div><img src={pic1} />Project Placeholder</div>
-                    <Link to="/about"><p><Button className="button">Github</Button></p></Link>
+                    <div><img src={portfolio} />Jortfolio</div>
+                    <Link to="https://github.com/jh-kim0403/portfoliowebsite" target="_blank" rel="noopener noreferrer"><p><Button className="button">Github</Button></p></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div><img src={pic1} />Project Placeholder</div>
-                    <Link to="/about"><p><Button className="button">Github</Button></p></Link>
+                    <div><img src={pic3} />JlockBusters</div>
+                    <Link to="https://github.com/jh-kim0403/fullstackProject" target="_blank" rel="noopener noreferrer"><p><Button className="button">Github</Button></p></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div><img src={pic1} />Project Placeholder</div>
-                    <Link to="/about"><p><Button className="button">Github</Button></p></Link>
+                    <div><img src={lcd} />LCD Calculator</div>
+                    <Link to="https://github.com/jh-kim0403/calculator" target="_blank" rel="noopener noreferrer"><p><Button className="button">Github</Button></p></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div><img src={pic1} />Project Placeholder</div>
-                    <Link to="/about"><p><Button className="button">Github</Button></p></Link>
+                    <div><img src={led_dimmer} />LED Dimmer</div>
+                    <Link to="https://github.com/jh-kim0403/led_dimmer" target="_blank" rel="noopener noreferrer"><p><Button className="button">Github</Button></p></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div><img src={pic1} />Project Placeholder</div>
+                    <div><img src={pic3} />Search Engine</div>
                     <Link to="/about"><p><Button className="button">Github</Button></p></Link>
                 </SwiperSlide>
             </Swiper>
