@@ -13,16 +13,16 @@ function About() {
                 <Row>
                     <Col className="about-paragraph" md="7">
                         <h1>
-                            If you've come to my about page
+                            Hey there :)
                         </h1>
                         <h1>
-                            I guess you want to know more about me
+                            Nice to meet you.
                         </h1>
                         <p>
-                            I am ex-RPA developer who is making a career change into full-stack development. <br />
-                            Due to some family issues, I'm currently helping out with my parents' business. <br />
-                            I am also working on individual projects like this website itself. <br />
-                            Here are some of my hobbies:
+                            Currently, working on individual projects. <br />
+                            In a mid life crisis debating to start my own business or get a job <br />
+                            but that's probably not what you were looking for on this page<br />
+                            Here are some of my hobbies since you'd like to know more about me:
                         </p>
                         <ListGroup className="transparent-list">
                             <ListGroup.Item>👉 Cooking ( I hope to open my own restaurant one day )</ListGroup.Item>

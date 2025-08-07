@@ -65,28 +65,17 @@ function Home() {
                                 </i>
                                 <br />
                                 <br />
-                                My field of interest's are building new &nbsp;
+                                I like to build &nbsp;
                                 <i>
                                     <b>Web applications </b> and
-                                    also in areas related to{" "}
+                                    am interested in {" "}
                                     <b >
                                         machine learning.
                                     </b>
                                 </i>
                                 <br />
                                 <br />
-                                Whenever possible, I also apply my passion for developing products
-                                with <b >Node.js</b> and
-                                <i>
-                                    <b >
-                                        {" "}
-                                        Modern Javascript Library and Frameworks
-                                    </b>
-                                </i>
-                                &nbsp; like
-                                <i>
-                                    <b > React.js and Next.js</b>
-                                </i>
+
                             </p>
                         </Col>
                     </Row>
